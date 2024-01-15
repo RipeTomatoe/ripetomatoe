@@ -3,7 +3,7 @@ layout: game-video.html
 title: "Modern Warfare II"
 date: "October 28th, 2022"
 slug: "mw2"
-url: tnsOrbljnK0
+url: 2NTAi7uP3LM
 hasVideo: true
 embed-image: "https://mitch.gg/img/mw2.jpg"
 downloads:
@@ -38,4 +38,4 @@ downloads:
     </div>
 </div>
 
-<iframe width="100%" height="720px" src="https://www.youtube.com/embed/OeVapCrI1pY" title="Launch Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="720px" src="https://www.youtube.com/embed/ho3jY94txHI" title="Launch Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

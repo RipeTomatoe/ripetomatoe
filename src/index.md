@@ -24,9 +24,9 @@ projects:
       "slug": "fable",
       "title": "🧚‍♂️ Fable",
       "background": "img/fable.png",
-      "description": "What does it mean to be a Hero? Well, in the fairytale land of Albion, that is entirely up to you.<br /> With a dark threat looming, and in a world where your reputation precedes you, your choices will change Albion forever.",
+      "description": "A NEW BEGINNING FOR THE LEGENDARY FRANCHISE",
       "date": "TBD",
-      "url": "/game/watch-dogs-legion",
+      "url": "/game/fable",
       "visible": true,
     },
     {

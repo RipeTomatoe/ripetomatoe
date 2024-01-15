@@ -21,6 +21,15 @@ projects:
       "visible": true,
     },
     {
+      "slug": "fable",
+      "title": "🧚‍♂️ Fable",
+      "background": "img/fable.png",
+      "description": "What does it mean to be a Hero? Well, in the fairytale land of Albion, that is entirely up to you.<br /> With a dark threat looming, and in a world where your reputation precedes you, your choices will change Albion forever.",
+      "date": "TBD",
+      "url": "/game/watch-dogs-legion",
+      "visible": true,
+    },
+    {
       "slug": "watch-dogs-legion",
       "title": "📸 Watch Dogs: Legion",
       "background": "img/watch-dogs-legion-thumb.png",
@@ -37,6 +46,15 @@ projects:
       "description": "Relive the thrill of Disney Parks and create the most fantastical Park of your dreams in Disney Magic Kingdoms!",
       "date": "March 18, 2016",
       "url": "/game/dmk",
+      "visible": true,
+    },
+    {
+      "slug": "uno",
+      "title": "🕹️ UNO & Friends",
+      "background": "img/uno-cover.png",
+      "description": "The Classic Card Game Goes Social!",
+      "date": "June 18, 2013",
+      "url": "/game/uno",
       "visible": true,
     },
   ]

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism.min.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="{{title}}">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="{{embed-image}}">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://mitch.gg/game/{{slug}}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{title}}">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="{{embed-image}}">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{title}}">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="{{embed-image}}">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16009517-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-16009517-1');
+    </script>
+</head>
+
+<body>
+    <header class="header-black">
+        <nav>
+            <h1 class="title">
+                <a href="/" class="accent"><img src="/img/mitch-andrews-black.png" alt="{{headerTitle}}" /></a>
+            </h1>
+            <div class="links">
+                {{#links}}
+                <h2>
+                    <a href="{{url}}" {{#isExternal}} rel="external" target="_blank" {{/isExternal}}>{{name}}</a>
+                </h2>
+                {{/links}}
+            </div>
+        </nav>
+    </header>
+    <div class="content content-page">
+        {{#hasHeaderImage}}
+        <img src="{{headerImage}}" style="margin: 0 auto; max-width: 100%;" />
+        {{/hasHeaderImage}}
+        {{#hasVideo}}
+        <div class="videoWrapper">
+            <div id="player" style="text-align: center; margin: auto">
+            </div>
+        </div>
+        <script>
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+            var player;
+
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('player', {
+                    height: '349',
+                    width: '560',
+                    videoId: '{{url}}'
+                });
+            }
+        </script>
+        {{/hasVideo}}
+        <div class="padded-wrapper">
+            <div class="game-title">
+                <h1>{{title}}</h1>
+                <h2>{{date}}</h2>
+                <div class="clearfix"></div>
+            </div>
+            <hr />
+            <div class="tags">
+                {{#downloads}}
+                <div class="download">
+                    <a href="{{url}}" class="{{type}}">
+                        <span class="image">
+                            <img src="/img/{{type}}.png" />
+                        </span>
+                        {{text}}
+                    </a>
+                </div>
+                {{/downloads}}
+                <div class="clearfix"></div>
+                {{#tags}}
+                <div class="tag">
+                    {{tag}}
+                </div>
+                {{/tags}}
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="description">
+            {{{ contents }}}
+        </div>
+    </div>
+    <footer>
+        &copy;{{year}} Mitch Andrews
+    </footer><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-core.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+
+</html>

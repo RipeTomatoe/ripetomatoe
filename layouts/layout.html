@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16009517-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-16009517-1');
+    </script>
+</head>
+
+<body>
+    <header class="main-nav-white">
+        <!--div class="blurred-bg">
+            <div style="background-image: url('/img/watch-dogs-legion.jpg');">
+            </div>
+        </div-->
+        <nav>
+            <h1 class="title">
+                <a href="/" class="accent"><img src="/img/mitch-andrews.png" alt="{{headerTitle}}" /></a>
+            </h1>
+            <div class="links">
+                {{#links}}
+                <h2>
+                    <a href="{{url}}" {{#isExternal}} rel="external" target="_blank" {{/isExternal}}>{{name}}</a>
+                </h2>
+                {{/links}}
+            </div>
+        </nav>
+    </header>
+    <div class="mega-game" id="mega-game">
+        <div style="bottom: 15px; position:absolute; width: 100%;" class="downArrow">
+            <div style="margin: 0 auto; color: white;display: table;
+            background: 000000FF;
+            padding: 10px; "><img src="/img/arrow.png" /></div>
+        </div>
+    </div>
+    <div class="content-title">
+        <h1><img src="/img/games.png" alt="Games" /></h1>
+    </div>
+    <div class="content game-list">
+        {{#projects}}
+        {{#visible}}
+        <a href="{{url}}" class="game-link">
+            <div class="game-background" style="background-image: url('{{background}}');">
+            </div>
+            <div class="game-info">
+                <p>{{{description}}}</p>
+            </div>
+            <div class="project-title">
+                <h1>{{title}}</h1>
+            </div>
+        </a>
+        {{/visible}}
+        {{/projects}}
+    </div>
+    <footer>
+        &copy;{{year}} Daniel Cossu
+    </footer>
+    <script>
+        window.onload = function() {
+            var element = document.getElementById('mega-game');
+            if (element) {
+                if( Math.random() >= 0.5 )
+                {
+                    element.style.backgroundImage = 'url("/img/mw3-cover.png")';
+                }
+                else
+                {
+                    element.style.backgroundImage = 'url("/img/mw3-cover-2.png")';
+                }
+            }
+        };
+
+    </script>
+</body>
+
+</html>

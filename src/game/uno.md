@@ -5,7 +5,7 @@ date: "May 30th, 2013"
 slug: "uno"
 url: IszDOA1lt6Q
 hasVideo: true
-embed-image: "https://ripetomatoe.com/img/uno.png"
+embed-image: "https://ripetomatoe.com/img/uno-cover.png"
 ---
 
 <div class="padded-wrapper">

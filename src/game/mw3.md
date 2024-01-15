@@ -5,7 +5,7 @@ date: "November 10th, 2023"
 slug: "mw3"
 url: mHDEDDrGYvo
 hasVideo: true
-embed-image: "https://mitch.gg/img/MWIII.jpg"
+embed-image: "https://ripetomatoe.com/img/MWIII.jpg"
 downloads:
   [
     {

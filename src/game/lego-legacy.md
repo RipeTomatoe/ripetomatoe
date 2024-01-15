@@ -4,7 +4,7 @@ title: "LEGO Legacy: Heroes Unboxed"
 date: "Feb 27th, 2019"
 slug: "lego"
 url: bdU5HlSx7k0
-embed-image: "https://mitch.gg/img/lego-thumb.jpg"
+embed-image: "https://ripetomatoe.com/img/lego-thumb.jpg"
 hasVideo: true
 downloads:
   [

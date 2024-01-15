@@ -5,7 +5,7 @@ date: "October 29th, 2020"
 slug: "watch-dogs-legion"
 url: L20nioDjCxU
 hasVideo: true
-embed-image: "https://mitch.gg/img/watch-dogs-legion-thumb.png"
+embed-image: "https://ripetomatoe.com/img/watch-dogs-legion-thumb.png"
 downloads:
   [
     {

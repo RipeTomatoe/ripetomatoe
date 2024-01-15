@@ -5,7 +5,7 @@ date: "October 28th, 2022"
 slug: "mw2"
 url: 2NTAi7uP3LM
 hasVideo: true
-embed-image: "https://mitch.gg/img/mw2.jpg"
+embed-image: "https://ripetomatoe.com/img/mw2.jpg"
 downloads:
   [
     {

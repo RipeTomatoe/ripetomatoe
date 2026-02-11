@@ -3,8 +3,26 @@ layout: layout.html
 projects:
   [
     {
+      "slug": "minecraft",
+      "title": "⛏️ Minecraft",
+      "background": "img/minecraft.jpg",
+      "description": "As seen on TV!",
+      "date": "Feburary 10th, 2026",
+      "url": "/game/minecraft",
+      "visible": true,
+    },
+    {
+      "slug": "bo7",
+      "title": "🕹️ Call of Duty: Black Ops 7",
+      "background": "img/bo7.png",
+      "description": "Embrace the madness Call of Duty: Black Ops 7",
+      "date": "November 14th, 2025",
+      "url": "/game/bo7",
+      "visible": true,
+    },
+    {
       "slug": "wz",
-      "title": "Call of Duty: Warzone",
+      "title": "🪖 Call of Duty: Warzone",
       "background": "img/wz.png",
       "description": "Party up and leave no friend behind.",
       "date": "TBD",
@@ -12,8 +30,17 @@ projects:
       "visible": true,
     },
     {
+      "slug": "bo6",
+      "title": "🕹️ Call of Duty: Black Ops 6",
+      "background": "img/bo6-cover.png",
+      "description": "Forced to go rogue. Hunted from within. This is Call of Duty.",
+      "date": "October 25, 2024",
+      "url": "/game/bo6",
+      "visible": true,
+    },
+    {
       "slug": "mw3",
-      "title": "Modern Warfare III",
+      "title": "🕹️ Modern Warfare III",
       "background": "img/MWIII.jpg",
       "description": "The ultimate threat awaits.",
       "date": "TBD",
@@ -22,7 +49,7 @@ projects:
     },
     {
       "slug": "mw2",
-      "title": "Modern Warfare II",
+      "title": "🕹️ Modern Warfare II",
       "background": "img/mw2.jpg",
       "description": "",
       "date": "TBD",

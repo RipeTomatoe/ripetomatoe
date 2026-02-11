@@ -1,4 +1,4 @@
 # Cossu
 Hey, I'm Cossu.
 
-I'm a Senior UI Engineer with 10 years in professional game development.
+I'm an Expert UI Engineer with over a decade in professional game development.

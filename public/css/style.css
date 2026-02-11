@@ -161,6 +161,7 @@ header {
   top: 0;
   background-color: #fefefe;
   z-index: 1;
+  position: absolute;
 }
 .title {
   padding: 28px 0 20px 40px;
@@ -221,10 +222,6 @@ nav h1 {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-}
-
-.content-page {
-  margin: 0 auto 0 auto;
 }
 
 .content a {
@@ -357,7 +354,7 @@ nav h1 {
 .main-nav-white {
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  background-color: #0a0201 !important /* #fefefe default */;
+  background-color: #0a020133 !important /* #fefefe default */;
   /*background: rgba(0, 0, 0, 0.2);*/
 }
 .main-nav-white nav h2 a,
